@@ -14,11 +14,11 @@ Two simple Steps
 
 2. Call this method anywhere inside your code
 
-     public void analyzeLog()
-     {
-	    	      LogEntries logEntries = driver.manage().logs().get(LogType.BROWSER);
-	              for (LogEntry entry : logEntries) {
-	              System.out.println(new Date(entry.getTimestamp()) + " " + entry.getLevel() + " " + entry.getMessage());
+         public void analyzeLog()
+               {
+	    	  LogEntries logEntries = driver.manage().logs().get(LogType.BROWSER);
+	          for (LogEntry entry : logEntries) {
+	          System.out.println(new Date(entry.getTimestamp()) + " " + entry.getLevel() + " entry.getMessage());
 	            
 	        }
 	    }
