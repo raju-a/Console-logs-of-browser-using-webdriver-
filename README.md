@@ -4,7 +4,7 @@ Its allways best Idea to get the console logs of browser for every run
 
 Two simple Steps 
 
-1. Fist setup the Environment 
+1. First setup the Environment 
  
           DesiredCapabilities caps = DesiredCapabilities.firefox();
 	        LoggingPreferences logPrefs = new LoggingPreferences();
